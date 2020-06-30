@@ -1,0 +1,181 @@
+/* 
+=====
+(c) 2009 J.S. Negley LLC
+www.jsnegley.com
+template: jsN_maximus
+file: css/nav.css
+
+version: 2013-05-22
+=====
+*/
+
+/* === main menu ====== */
+div.mod-mainmenu {
+	margin: 0 auto;
+	padding: 12px 0 0;
+	text-align: center;
+}
+div.mod-mainmenu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+div.mod-mainmenu ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+div.mod-mainmenu ul li a {
+	font-size: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	padding: 3px 24px;
+}
+div.mod-mainmenu ul li a:hover{ color:#cad022; }
+div.mod-mainmenu ul li#current a { color:#cad022; }
+div.mod-mainmenu ul li#current a:hover{ color:#d7dd31; }
+
+
+/* === submenu ====== */
+div.mod-submenu { position:relative; display:block; min-height:250px;
+	clear: both;
+	width: 190px;
+	margin: 0 24px 24px 24px;
+	padding: 0;
+}
+div.mod-submenu ul{
+	display:block;
+	list-style-type:none;
+	width: 190px;
+	margin: 0;
+	padding: 0;
+}
+div.mod-submenu ul li {
+	display: block;
+	float: left;
+	background-color:#F0F0F0;
+	border-bottom: 1px dotted #333;
+	margin: 0;
+	padding: 0;
+}
+div.mod-submenu ul ul li {
+	border-bottom: none;
+}
+div.mod-submenu ul li a{
+	display: block;
+	width: 180px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	background: none;
+	text-decoration: none;
+	font-size: 13px;
+	margin: 0;
+	padding: 0.6em 0 .6em .6em;
+}
+div.mod-submenu ul ul li a{
+	margin: 0 0 0 15px;
+	padding: 3px 0;
+}
+div.mod-submenu ul li a:hover {
+	color: #0178a9;
+	background: transparent;
+}
+div.mod-submenu ul li#current a{
+	color: #0881b3;
+}
+div.mod-submenu ul li#current > ul li a{
+	color: #333;
+}
+div.mod-submenu ul li#current > ul li a:hover{
+	color: #0178a9;
+}
+
+
+/* === bottom menu ======
+div.mod-bottommenu {
+	position: relative;
+	display: block;
+	color: #333;
+}
+div.mod-bottommenu ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+div.mod-bottommenu ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+div.mod-bottommenu ul li a {
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	border-right: 1px solid #333;
+	padding: .2em 1em;
+}
+div.mod-bottommenu ul li a:hover {
+	text-decoration: underline;
+}
+div.mod-bottommenu ul li.itemXX a{
+	border-right: none;
+}
+
+div.mod-bottommenu ul li a{
+	color: #333;
+	background: url(images/nav-bottom-dot.gif) #fff 0px 4px no-repeat;
+	text-decoration: none;
+	padding: .2em 1em;
+}
+div.mod-bottommenu ul li a.first{
+	background: none;
+}
+*/
+
+
+/* === breadcrumbs ======
+div.module-breadcrumbs{
+	position: absolute;
+	top: 70px;
+	left: 35px;
+}
+div.module-breadcrumbs ul{
+	margin: 1em 0;
+	padding: 0 1em;
+}
+div.module-breadcrumbs li {
+	list-style-type: none;
+	display: inline;
+	font-weight: normal;
+	color: #0069aa;
+	font-size: 11px;
+	line-height: normal;
+}
+div.module-breadcrumbs span.pathway{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333;
+	text-decoration: none;
+}
+div.module-breadcrumbs a.pathway{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333;
+	text-decoration: none;
+}
+div.module-breadcrumbs a:hover.pathway{
+	color: #0069aa;
+}
+*/
+
+/* === page nav ====== */
+table.pagenav {
+	margin: 20px 0px 0px;
+}
+table.pagenav a{
+	font-size: 11px;
+	color: #333;
+}

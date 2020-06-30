@@ -1,0 +1,128 @@
+/* 
+=====
+(c) 2009 J.S. Negley LLC
+www.jsnegley.com
+template: jsN_Maximus
+file: css/mod.css
+jsN Module Chromes
+
+version: 2009-08-04
+=====
+*/
+
+/* === jsN Module Chromes ====== */
+/* --- jsN Default ------ */
+div.mod{ margin:0;padding:0; }
+div.mod h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	padding: 0;
+	margin: 0;
+}
+div.mod p,
+div.mod label{
+	font-family: Arial, Helvetica,sans-serif;
+	color: #333;
+	line-height: normal;
+	text-align: left;
+	margin: 0 0 15px;
+}
+div.mod a{ color: #cc6600;text-decoration: none; }
+div.mod a:hover{ text-decoration: underline; }
+div.mod ul{ padding: 0px 12px;margin: 0px 12px; }
+div.mod li{ color: #093b54;font-size: 11px;margin: 3px;padding: 0px; }
+
+/* --- jsN Alternate ------ */
+div.mod-alt{
+	background: #ccc;
+	width: 200px;
+	margin: 16px 0;
+	padding: 0;
+}
+div.mod-alt div.mod-top{ height: 30px;background:#333; }
+div.mod-alt div.mod-middle{ background: #F7F7F7;padding:15px;}
+div.mod-alt div.mod-bottom{ height: 30px;background:#333; }
+div.mod-alt h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #fff;
+}
+div.mod-alt p,
+div.mod-alt label{
+	font-family: Arial, Helvetica,sans-serif;
+	color: #333;
+	line-height: normal;
+	text-align: left;
+	margin: 0 0 15px;
+}
+div.mod-alt a{ color: #cc6600;text-decoration: none; }
+div.mod-alt a:hover{ text-decoration: underline; }
+div.mod-alt ul{
+	padding: 0px 12px;
+	margin: 0px 12px;
+}
+div.mod-alt li {
+	color: #093b54;
+	font-size: 11px;
+	margin: 3px;
+	padding: 0px;
+}
+
+/* --- jsN Extended ------ */
+div.mod-x{ /* bottom-right */
+	background: url(../images/infobox-corner-br.png) #dae2e6 bottom right no-repeat;
+	width: 200px;
+	margin: 16px 0;
+	padding: 0;
+}
+div.mod-x div.mod-x2{ /* bottom-left */
+    background: url(../images/infobox-corner-bl.png) bottom left no-repeat;
+	margin: 0;
+	padding: 0 0 16px;
+}
+div.mod-x div.mod-x3{ /* top-left */
+    background: url(../images/infobox-corner-tl.png) top left no-repeat;
+	margin: 0;
+	padding: 0;
+}
+div.mod-x div.mod-x4{ /* top-right */
+    background: url(../images/infobox-corner-tr.png) top right no-repeat;
+	margin: 0;
+	padding: 8px 16px 0;
+}
+div.mod-x h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #093b54;
+	padding: 0;
+	margin: 0;
+}
+div.mod-x p,
+div.mod-x label{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #093b54;
+	line-height: normal;
+	text-align: left;
+	margin: 0 0 15px;
+}
+div.mod-x a{
+	color: #cc6600;
+	text-decoration: none;
+}
+div.mod-x a:hover{ text-decoration: underline; }
+div.mod-x ul{
+	padding: 0px 12px;
+	margin: 0px 12px;
+}
+div.mod-x li {
+	color: #093b54;
+	font-size: 11px;
+	margin: 3px;
+	padding: 0px;
+}
